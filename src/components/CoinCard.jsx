@@ -12,7 +12,6 @@ const CoinCard = ({ coin }) => {
       {coin.price_change_percentage_24h >=0 ?  
         (
             <p className="positive">
-                {coin.price_change_percentage_24h.toFixed(2)}%
             </p>
         ) :
         (
